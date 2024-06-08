@@ -1,0 +1,71 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>ctrlic</groupId>
+  <artifactId>ctrlic</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>war</packaging>
+  <name>br.com.wandersoft.ctrlic</name>
+  <description>Sistema de controle de licenças.</description>
+  <dependencies>
+	<!-- https://mvnrepository.com/artifact/com.sun.faces/jsf-api -->
+	<dependency>
+	    <groupId>com.sun.faces</groupId>
+	    <artifactId>jsf-api</artifactId>
+	    <version>2.2.20</version>
+	</dependency>
+	<!-- https://mvnrepository.com/artifact/com.sun.faces/jsf-impl -->
+	<dependency>
+	    <groupId>com.sun.faces</groupId>
+	    <artifactId>jsf-impl</artifactId>
+	    <version>2.2.20</version>
+	</dependency>
+	<!-- https://mvnrepository.com/artifact/org.primefaces/primefaces -->
+	<dependency>
+	    <groupId>org.primefaces</groupId>
+	    <artifactId>primefaces</artifactId>
+	    <version>6.2</version>
+	</dependency>
+	<!-- https://mvnrepository.com/artifact/org.primefaces.themes/all-themes -->
+	<dependency>
+	    <groupId>org.primefaces.themes</groupId>
+	    <artifactId>all-themes</artifactId>
+	    <version>1.0.10</version>
+	</dependency>
+
+	<!-- https://mvnrepository.com/artifact/javax.enterprise/cdi-api -->
+	<dependency>
+	    <groupId>javax.enterprise</groupId>
+	    <artifactId>cdi-api</artifactId>
+	    <version>2.0.SP1</version>
+	    <scope>provided</scope>
+	</dependency>
+		  <!-- https://mvnrepository.com/artifact/org.hibernate/hibernate-entitymanager -->
+		<dependency>
+		    <groupId>org.hibernate</groupId>
+		    <artifactId>hibernate-entitymanager</artifactId>
+		    <version>5.6.15.Final</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.postgresql/postgresql -->
+		<dependency>
+		    <groupId>org.postgresql</groupId>
+		    <artifactId>postgresql</artifactId>
+		    <version>42.6.0</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.jboss.weld/weld-core -->
+		<dependency>
+		    <groupId>org.jboss.weld</groupId>
+		    <artifactId>weld-core</artifactId>
+		    <version>2.4.8.Final</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.jboss.weld.servlet/weld-servlet -->
+		<dependency>
+		    <groupId>org.jboss.weld.servlet</groupId>
+		    <artifactId>weld-servlet</artifactId>
+		    <version>2.4.8.Final</version>
+		</dependency>
+
+
+</dependencies>
+  
+</project>
